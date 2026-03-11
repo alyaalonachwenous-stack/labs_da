@@ -13,3 +13,21 @@
 - Інтерпретатор: Python 3.9 або вище (рекомендовано 3.10+)
 - Встановлений Jupyter Notebook або інше середовище для запуску `.ipynb` файлів.
 
+## Інструкція із встановлення та запуску 
+
+1. Склонуйте репозиторій на свій комп'ютер та перейдіть у директорію проєкту:
+   ```bash
+   git clone [https://github.com/alyaalonachwenous-stack/labs_da.git](https://github.com/alyaalonachwenous-stack/labs_da.git)
+   cd labs_da/lab_02
+
+2. (Обов'язково) Переконайтеся, що файл із сирими даними (наприклад, household_power_consumption.txt) завантажено та розміщено всередині папки lab_02. З міркувань безпеки та економії місця цей файл ігнорується системою Git.
+
+3. Встановіть усі необхідні бібліотеки із файлу залежностей однією командою:
+  ```bash
+   pip install -r requirements.txt
+```
+
+4. Запустіть Jupyter Notebook для перегляду та виконання коду:
+   ```bash
+   jupyter notebook
+   ```
