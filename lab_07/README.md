@@ -21,3 +21,17 @@
    ```bash
    chmod +x preinstall.sh build.sh run.sh
    ./preinstall.sh
+   ```
+2. Зберіть проєкт:
+   ```bash
+   ./build.sh
+   ```
+3. Запустіть програму:
+   ```bash
+   ./run.sh
+   ```
+
+## Керування
+- **`F` / `f`** — Увімкнути режим детекції облич.
+- **`1`-`4`** — Інші режими (Original, Invert, Blur, Canny).
+- **`ESC` / `Q`** — Вихід.
